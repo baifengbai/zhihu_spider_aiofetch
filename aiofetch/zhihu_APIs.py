@@ -843,7 +843,7 @@ class ZhiHu:
         def __init__(self):
             self.info = self._Info
             self.followers = self._Followers
-            self.timeline_questions = self._TimelineQuestion
+            self.timeline_question = self._TimelineQuestion
 
         class _Info(UnPageable):
             def __init__(self, topic_id, query_args=None):
